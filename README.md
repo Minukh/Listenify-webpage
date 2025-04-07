@@ -1,33 +1,24 @@
-# Pubdater Tool
+# Listenify Frontend
 
-## What is Pubdater?
+## What is Listenify?
 
-Pubdater is a handy tool that helps update the dependencies in your **pubspec.yaml** file for Dart projects. It checks for the latest compatible versions of your packages based on the Dart version you're using and updates the file for you.
-
----
-
-## How it Works:
-1. **Extracts dependencies** from the pubspec file.
-2. **Finds the latest versions** that work with your Dart SDK.
-3. **Updates your pubspec file** with the new versions if they are compatible.
-
----
-
-## Why Use It?
-- Saves time by automating dependency updates.
-- Makes sure your packages are up-to-date and compatible with your Dart version.
-- Handles large, empty, or tricky pubspec files gracefully.
+Listenify is a hearing test tool designed to create a seamless user experience. This frontend interface allows users to test their hearing with clear instructions, selectable options for ear preference, and a visual equalizer representation.
 
 ---
 
 ## Key Features:
-- Detects all dependencies and checks their versions.
-- Updates only compatible versions, keeping your project stable.
-- Provides clear messages if something can't be updated.
+- **Equalizer Display:** Animated bars for left (L) and right (R) channels.
+- **Ear Selection:** Users can test hearing for both ears, left ear, or right ear.
+- **Instructions and Warnings:** Step-by-step guidance to improve test accuracy.
+- **Simple Test Interaction:** A "TEST" button to start the hearing evaluation.
+- **Audibility Feedback:** Users can respond with "Yes" or "No" to whether sound was audible.
 
 ---
 
-## Error Handling:
-If your pubspec file is too long, empty, or has no dependencies to update, Pubdater will let you know and explain the issue.
+## How to Use:
+1. **Follow the Setup Instructions:** Be in a quiet room, wear earphones, and disable sound enhancements/noise cancellation.
+2. **Select Ear Preference:** Choose "Both ears," "Left ear," or "Right ear" from the dropdown menu.
+3. **Start the Test:** Press the "TEST" button to begin.
+4. **Provide Feedback:** Use the "Yes" or "No" options to indicate if the sound was audible.
 
 ---
